@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "moepda/android_kernel_moto_shamu",
+    "target_path": "kernel/moto/shamu",
+	"revision": "o8x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "moepda/android_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "revision":    "o8x"
+  }
+]
