@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "moepda/android_kernel_moto_shamu",
+    "repository": "Hexa-Project-Device/android_kernel_moto_shamu",
     "target_path": "kernel/moto/shamu",
 	"revision": "o8x"
   },
