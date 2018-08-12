@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_kernel_moto_shamu",
-    "target_path": "kernel/moto/shamu"
+    "remote": "github",
+    "repository": "moepda/android_kernel_moto_shamu",
+    "target_path": "kernel/moto/shamu",
+	"revision": "p9x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "moepda/android_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "revision":    "p9x"
   }
 ]
