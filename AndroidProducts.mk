@@ -16,3 +16,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_shamu.mk
+COMMON_LUNCH_CHOICES := \
+	aosp_shamu-userdebug 
