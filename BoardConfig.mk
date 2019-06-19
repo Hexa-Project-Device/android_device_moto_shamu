@@ -142,4 +142,4 @@ DEVICE_MATRIX_FILE := device/moto/shamu/compatibility_matrix.xml
 # gralloc1 bits
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02000000U
 
--include vendor/moto/shamu/BoardConfigVendor.mk
+-include vendor/motorola/shamu/BoardConfigVendor.mk
