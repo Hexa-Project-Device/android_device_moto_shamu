@@ -19,6 +19,15 @@
 # are also specific to shamu devices
 #
 
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+	LOCAL_KERNEL := device/moto/shamu/zImage-dtb
+else
+    LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+	
+PRODUCT_COPY_FILES := \
+    $(LOCAL_KERNEL):kernel
+
 # Input device files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
