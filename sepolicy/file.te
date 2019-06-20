@@ -19,7 +19,6 @@ type ram_dump_logs, file_type, data_file_type, core_data_file_type;
 type time_data_file, file_type, data_file_type, core_data_file_type;
 type gsiffd_data_file, data_file_type, file_type, core_data_file_type;
 type quipc_data_file, data_file_type, file_type, core_data_file_type;
-type dropbox_data_file, file_type, data_file_type, core_data_file_type;
 type adspd_data_file, file_type, data_file_type, core_data_file_type, mlstrustedobject;
 type audio_cutback_data_file, file_type, data_file_type, core_data_file_type;
 
@@ -51,4 +50,3 @@ type sysfs_kgsl_gpuclk, fs_type, sysfs_type;
 type sysfs_socinfo, sysfs_type, fs_type, mlstrustedobject;
 
 type proc_cpu_alignment, fs_type, proc_type;
-type proc_slabinfo, fs_type, proc_type;
