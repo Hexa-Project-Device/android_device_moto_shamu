@@ -1,6 +1,6 @@
 
-type tcmd, domain, device_domain_deprecated;
-type tcmd_exec, exec_type, file_type;
+type tcmd, domain, device_domain_deprecated, coredomain;
+type tcmd_exec, exec_type, file_type, system_file_type;
 
 init_daemon_domain(tcmd)
 
