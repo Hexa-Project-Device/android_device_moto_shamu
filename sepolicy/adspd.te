@@ -1,5 +1,5 @@
 type adspd, domain, mlstrustedsubject;
-type adspd_exec, file_type, exec_type;
+type adspd_exec, file_type, exec_type, system_file_type;
 
 init_daemon_domain(adspd)
 

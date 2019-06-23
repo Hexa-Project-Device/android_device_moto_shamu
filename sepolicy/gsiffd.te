@@ -1,5 +1,5 @@
 type gsiffd, domain;
-type gsiffd_exec, exec_type, vendor_file_type, file_type;
+type gsiffd_exec, exec_type, system_file_type, vendor_file_type, file_type;
 
 # Started by init
 init_daemon_domain(gsiffd)
