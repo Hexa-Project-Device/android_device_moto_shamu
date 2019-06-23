@@ -1,5 +1,5 @@
-type adspd, domain, device_domain_deprecated, mlstrustedsubject, coredomain;
-type adspd_exec, file_type, exec_type, system_file_type;
+type adspd, domain, device_domain_deprecated, mlstrustedsubject;
+type adspd_exec, file_type, exec_type;
 
 init_daemon_domain(adspd)
 

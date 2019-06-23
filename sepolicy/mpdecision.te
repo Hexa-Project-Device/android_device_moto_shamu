@@ -1,6 +1,6 @@
 # CPU governor (root process)
-type mpdecision, domain, device_domain_deprecated, coredomain;
-type mpdecision_exec, exec_type, file_type, system_file_type;
+type mpdecision, domain, device_domain_deprecated;
+type mpdecision_exec, exec_type, file_type;
 
 # Started by init
 init_daemon_domain(mpdecision)
@@ -10,7 +10,7 @@ allow mpdecision sysfs_devices_system_cpu:file rw_file_perms;
 allow mpdecision sysfs_rqstats:file rw_file_perms;
 allow mpdecision sysfs_rqstats:dir r_dir_perms;
 allow mpdecision sysfs_cpu_online:file rw_file_perms;
-#allow mpdecision cpuctl_device:file rw_file_perms;
+allow mpdecision cpuctl_device:file rw_file_perms;
 allow mpdecision sysfs_cpuboost:dir r_dir_perms;
 allow mpdecision sysfs_cpuboost:file rw_file_perms;
 

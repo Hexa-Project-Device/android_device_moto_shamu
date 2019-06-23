@@ -1,5 +1,5 @@
-type ims, domain, device_domain_deprecated, coredomain;
-type ims_exec, exec_type, file_type, system_file_type;
+type ims, domain, device_domain_deprecated;
+type ims_exec, exec_type, file_type;
 
 # Started by init
 init_daemon_domain(ims)
@@ -11,7 +11,7 @@ net_domain(ims)
 qmux_socket(ims)
 
 # Allow ims to communicate with netd.
-#allow ims netd_socket:sock_file write;
+allow ims netd_socket:sock_file write;
 
 # Allow ims to communicate with cnd.
 allow ims cnd_socket:sock_file write;
