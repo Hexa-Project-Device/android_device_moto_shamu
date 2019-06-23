@@ -10,7 +10,7 @@ allow mpdecision sysfs_devices_system_cpu:file rw_file_perms;
 allow mpdecision sysfs_rqstats:file rw_file_perms;
 allow mpdecision sysfs_rqstats:dir r_dir_perms;
 allow mpdecision sysfs_cpu_online:file rw_file_perms;
-allow mpdecision cpuctl_device:file rw_file_perms;
+#allow mpdecision cpuctl_device:file rw_file_perms;
 allow mpdecision sysfs_cpuboost:dir r_dir_perms;
 allow mpdecision sysfs_cpuboost:file rw_file_perms;
 

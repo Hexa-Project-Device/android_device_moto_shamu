@@ -10,7 +10,7 @@
 /data/misc/location/quipc(/.*)?                       u:object_r:quipc_data_file:s0
 /data/misc/radio(/.*)?                                u:object_r:radio_data_file:s0
 /data/ss-ram-dumps(/.*)?                              u:object_r:ram_dump_logs:s0
-/data/system/dropbox-add(/.*)?                        u:object_r:dropbox_data_file:s0
+#/data/system/dropbox-add(/.*)?                        u:object_r:dropbox_data_file:s0
 /data/time(/.*)?                                      u:object_r:time_data_file:s0
  ###################################
 # Dev nodes

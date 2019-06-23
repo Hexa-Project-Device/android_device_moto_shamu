@@ -52,8 +52,8 @@ allow mdm_helper ram_dump_logs:dir create_dir_perms;
 allow mdm_helper ram_dump_logs:file create_file_perms;
 
 # write modem logs to dropbox
-allow mdm_helper dropbox_data_file:dir rw_dir_perms;
-allow mdm_helper dropbox_data_file:file create_file_perms;
+#allow mdm_helper dropbox_data_file:dir rw_dir_perms;
+#allow mdm_helper dropbox_data_file:file create_file_perms;
 
 # write radio properties
 set_prop(mdm_helper, radio_prop)
