@@ -7,6 +7,7 @@ init_daemon_domain(sensors)
 
 # drop privileges
 allow sensors self:capability { sys_nice chown setuid setgid net_bind_service};
+allow sensors self:capability dac_override;
 
 # b/18417109
 # The kernel code does a permission check of both net_bind_service and
